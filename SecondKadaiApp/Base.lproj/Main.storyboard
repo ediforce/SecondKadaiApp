@@ -28,7 +28,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4xH-xq-hBg">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4xH-xq-hBg">
                                 <rect key="frame" x="116" y="253" width="143" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -45,14 +45,16 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="4xH-xq-hBg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="116" id="7LR-2M-QSj"/>
                             <constraint firstItem="4xH-xq-hBg" firstAttribute="top" secondItem="aQS-Wa-aIX" secondAttribute="bottom" constant="68" id="8Ry-Gh-qeH"/>
                             <constraint firstItem="aQS-Wa-aIX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="78" id="9YN-Tr-Y9v"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aQS-Wa-aIX" secondAttribute="trailing" constant="78" id="FLt-3z-urC"/>
+                            <constraint firstItem="4xH-xq-hBg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="116" id="T4D-Dg-bxn"/>
                             <constraint firstItem="aQS-Wa-aIX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="145" id="ZYc-Rb-Fqo"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Jvw-qY-TCA" secondAttribute="trailing" constant="168" id="fyu-yd-BuZ"/>
                             <constraint firstItem="4xH-xq-hBg" firstAttribute="centerX" secondItem="aQS-Wa-aIX" secondAttribute="centerX" id="gPo-OE-8Pg"/>
                             <constraint firstItem="Jvw-qY-TCA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="168" id="ixG-h1-MYz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4xH-xq-hBg" secondAttribute="trailing" constant="116" id="jZ6-BQ-WMS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aQS-Wa-aIX" secondAttribute="trailing" constant="78" id="pfg-jW-6MZ"/>
                             <constraint firstItem="Jvw-qY-TCA" firstAttribute="top" secondItem="4xH-xq-hBg" secondAttribute="bottom" constant="38" id="r8C-Js-MsI"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -96,6 +98,7 @@
                         <constraints>
                             <constraint firstItem="NWM-8x-Nb6" firstAttribute="leading" secondItem="5Dh-8I-7Tm" secondAttribute="leading" constant="75" id="747-b0-iVf"/>
                             <constraint firstItem="5Dh-8I-7Tm" firstAttribute="trailing" secondItem="xg1-pl-uO8" secondAttribute="trailing" constant="164" id="GbC-b0-o8D"/>
+                            <constraint firstItem="5Dh-8I-7Tm" firstAttribute="trailing" secondItem="NWM-8x-Nb6" secondAttribute="trailing" constant="76" id="GrJ-ll-DnY"/>
                             <constraint firstItem="NWM-8x-Nb6" firstAttribute="top" secondItem="5Dh-8I-7Tm" secondAttribute="top" constant="144" id="Yyw-Y2-Oml"/>
                             <constraint firstItem="5Dh-8I-7Tm" firstAttribute="trailing" secondItem="NWM-8x-Nb6" secondAttribute="trailing" constant="76" id="aR8-gO-Wmx"/>
                             <constraint firstItem="xg1-pl-uO8" firstAttribute="leading" secondItem="5Dh-8I-7Tm" secondAttribute="leading" constant="164" id="f8f-w8-6c7"/>
